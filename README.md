@@ -12,11 +12,11 @@ Alternative to use AWS cloudformation
 
 My Solution:
 
-1. I placed the app.py, Dockerfile, and requirements files in the same directory, then composed and ran the build-push.sh script (found in the Scripts folder). This scripts builds the docker image, creates an AWS ECR repo, authenicates your docker client to AWS (if needed), tags your image in preperation for the push to ECR, and lastly pushes the image to the created ECR repo.
+1. I placed the app.py, Dockerfile, and requirements files in the same directory, then created and ran the build-push.sh script (found in the Scripts folder). This scripts builds the docker image, creates an AWS ECR repo, authenicates your docker client to AWS (if needed), tags your image in preperation for the push to ECR, and lastly pushes the image to the created ECR repo.
 
 2. I built the Infrastructure required for the app to run in ECS (Fargate) using Cloudformation. The Yaml Stacks can be found in the Infrastructure folder.
 
-3. I composed and ran the flask-stacks.sh script (found in the Script folder). This script creates each stack in order one after an other.
+3. I created and ran the flask-stacks.sh script (found in the Script folder). This script creates each stack in order one after an other.
  - Be sure to add your unique ECR repo URI in the api.yml template:
 ![image](https://github.com/Marvyn1/The-Ask/assets/31973628/7dd75f78-d416-44ae-9b64-3ecc72e1e2d4)
 
