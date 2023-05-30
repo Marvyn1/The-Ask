@@ -1,6 +1,4 @@
-# CM-DevOps-Test
-
-The ask
+# The ask
 
 1. To containerize the Flask API
 
