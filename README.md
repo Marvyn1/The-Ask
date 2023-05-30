@@ -22,6 +22,6 @@ My Solution:
 
 
 
-The architectural diagram of my solution can be found in the Diagram Folder.
+4. The architectural diagram of my solution can be found in the Diagram Folder.
 
 
