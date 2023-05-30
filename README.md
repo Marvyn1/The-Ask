@@ -21,7 +21,7 @@ My Solution:
 
 3. I created and ran the flask-stacks.sh script (found in the Script folder). This script creates each stack in order one after an other.
  - Be sure to add your unique ECR repo URI in the api.yml template:
-Image: 233230008165.dkr.ecr.eu-west-1.amazonaws.com/flaskapi2:latest
+'''Image: 233230008165.dkr.ecr.eu-west-1.amazonaws.com/flaskapi2:latest'''
 
 
 
