@@ -10,6 +10,7 @@ Alternative to use AWS cloudformation
 
 4. Provide a simplified playbook (with arch diagram), demonstrating what you have delivered
 
+
 My Solution:
 
 1. I placed the app.py, Dockerfile, and requirements files in the same directory, then created and ran the build-push.sh script (found in the Scripts folder). This scripts builds the docker image, creates an AWS ECR repo, authenicates your docker client to AWS (if needed), tags your image in preperation for the push to ECR, and lastly pushes the image to the created ECR repo.
@@ -23,5 +24,7 @@ My Solution:
 
 
 4. The architectural diagram of my solution can be found in the Diagram Folder.
+
+- The files from the assessment repo can be found in the python-api folder.
 
 
