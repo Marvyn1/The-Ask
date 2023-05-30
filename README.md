@@ -20,8 +20,8 @@ My Solution:
 2. I built the Infrastructure required for the app to run in ECS (Fargate) using Cloudformation. The Yaml Stacks can be found in the Infrastructure folder.
 
 3. I created and ran the flask-stacks.sh script (found in the Script folder). This script creates each stack in order one after an other.
- - Be sure to add your unique ECR repo URI in the api.yml template:
-'''Image: 233230008165.dkr.ecr.eu-west-1.amazonaws.com/flaskapi2:latest'''
+ - Be sure to add your unique ECR repo URI in the api.yml template, ie:
+```Image: 233230008165.dkr.ecr.eu-west-1.amazonaws.com/flaskapi2:latest```
 
 
 
