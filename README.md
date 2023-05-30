@@ -1,5 +1,7 @@
 # The Ask
 
+[The files from the assessment repo can be found in the python-api folder.}
+
 1. To containerize the Flask API
 
 2. To build Infra to deploy the app using ECS. You can:
@@ -25,6 +27,5 @@ My Solution:
 
 4. The architectural diagram of my solution can be found in the Diagram Folder.
 
-- The files from the assessment repo can be found in the python-api folder.
 
 
